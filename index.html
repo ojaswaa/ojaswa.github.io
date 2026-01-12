@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cute Button</title>
+<style>
+    body {
+        background: #ffc6e5; /* soft pink */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .cute-btn {
+        background: #ff5fa2; /* deeper pink for contrast */
+        color: white;
+        border: none;
+        padding: 15px 40px;
+        border-radius: 20px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+        box-shadow: 0 4px 10px rgba(255, 0, 100, 0.3);
+    }
+
+    .cute-btn:hover {
+        transform: scale(1.06);
+        box-shadow: 0 6px 14px rgba(255, 0, 100, 0.4);
+    }
+
+    .cute-btn:active {
+        transform: scale(0.98);
+    }
+</style>
+</head>
+<body>
+
+<button class="cute-btn">click me :D</button>
+
+</body>
+</html>
